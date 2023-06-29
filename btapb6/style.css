@@ -467,7 +467,7 @@ html, body {
 }
 
 .img-part-3 {
-    width: 100%;
+    width: 50%;
     height: auto;
     margin-bottom: 1rem;
     align-items: flex-end;
@@ -475,7 +475,7 @@ html, body {
 
 .img-part-3 img {
     max-width: 400px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .benefit-description-content p {
