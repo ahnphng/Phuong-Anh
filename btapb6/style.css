@@ -510,7 +510,7 @@ html, body {
     width: 9rem;
     height: fit-content;
     flex-direction: column;
-    line-height: 1rem;
+    line-height: 1.2rem;
     font-size: 0.8rem;
 }
 
@@ -518,3 +518,43 @@ html, body {
     position: absolute;
 }
 
+.form-group-benefit1 {
+    position: absolute;
+    justify-items: space-between;
+    top: 100%;
+    left: 10%;
+    display: flex;
+    padding: 0.5rem 1rem 0.75rem 1rem;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    width: 9rem;
+    height: fit-content;
+    flex-direction: column;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+}
+
+.img-part-3, .form-group-benefit2 {
+    position: absolute;
+}
+
+
+.form-group-benefit2 {
+    position: absolute;
+    justify-items: space-between;
+    bottom:0;
+    transform: translate(-30%,600%);
+    display: flex;
+    padding: 1rem 1rem 0rem 1rem;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    width: fit-content;
+    height: 3rem;
+    flex-direction: column;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+}
