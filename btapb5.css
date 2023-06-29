@@ -1,0 +1,44 @@
+html,body {
+    font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    letter-spacing: .01em;
+}
+
+container {
+    text-align: left;
+    background: #fff;
+}
+
+.info {
+    display: inline-block;
+    clear: both;
+    margin: 0 0 5px 0;
+    padding: 0 1% 1.1em 1%;
+    border-bottom: 1px dotted #ccc;
+}
+
+.info h2 {
+    font-weight: normal;
+    font-size: 160%;
+    margin: 0 0 5px 0;
+    clear: left;
+}
+
+label {
+    font-size: 95%;
+    font-weight: bold;
+    color: #222;
+    line-height: 150%;
+    margin: 0;
+    padding: 0 0 3px 0;
+    border: none;
+    display: block;
+    white-space: normal;
+    width: 100%;
+}
+
+select {
+    font-size: 120% !important;
+    margin: 0 0 1px 0;
+    width: 50%;
+    padding: 1px 0 0 0;
+}
